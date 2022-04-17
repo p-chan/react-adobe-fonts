@@ -1,9 +1,10 @@
 {
   "name": "react-adobe-fonts",
   "version": "0.1.0",
-  "description": "",
+  "description": "A React library to use Adobe Fonts",
   "keywords": [
     "react",
+    "react-hooks",
     "adobe-fonts",
     "typekit"
   ],
