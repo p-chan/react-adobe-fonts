@@ -1,0 +1,47 @@
+{
+  "name": "react-adobe-fonts",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [
+    "react",
+    "adobe-fonts",
+    "typekit"
+  ],
+  "homepage": "https://github.com/p-chan/react-adobe-fonts#readme",
+  "bugs": {
+    "url": "https://github.com/p-chan/react-adobe-fonts/issues"
+  },
+  "license": "MIT",
+  "author": "P-Chan",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/p-chan/react-adobe-fonts.git"
+  },
+  "scripts": {
+    "build": "tsup",
+    "clean": "rimraf ./dist",
+    "dev": "tsup --watch",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@stardust-configs/prettier-config": "0.1.1",
+    "@stardust-configs/tsconfig": "0.2.0",
+    "@types/react": "18.0.5",
+    "@types/react-dom": "18.0.1",
+    "prettier": "2.6.2",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "rimraf": "3.0.2",
+    "tsup": "5.12.5",
+    "typescript": "4.6.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  }
+}
