@@ -2,11 +2,17 @@ import React, { ReactNode, useEffect } from 'react'
 
 export type AdobeFontsProps = {
   kitId: string
+  /** This callback is triggered when all fonts have been requested. */
   onLoading?: () => void
+  /** This callback is triggered when the fonts have rendered. */
   onActive?: () => void
+  /** This callback is triggered when the browser does not support linked fonts *or* if none of the fonts could be loaded. */
   onInactive?: () => void
+  /** This callback is triggered once for each font that's loaded. The callback is called with the family name as the first argument and font variation description as the second argument. */
   onFontLoading?: (fontFamily: string, fontVariation: string) => void
+  /** This callback is triggered once for each font that renders. The callback is called with the family name as the first argument and font variation description as the second argument. */
   onFontActive?: (fontFamily: string, fontVariation: string) => void
+  /** This callback is triggered if the font can't be loaded. The callback is called with the family name as the first argument and font variation description as the second argument. */
   onFontInactive?: (fontFamily: string, fontVariation: string) => void
 }
 
