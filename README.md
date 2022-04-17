@@ -46,7 +46,7 @@ const App = () => {
 }
 ```
 
-### Hook
+### Hooks
 
 ```tsx
 import { useCallback, useState } from 'react'
