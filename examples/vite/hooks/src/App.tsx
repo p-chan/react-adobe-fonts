@@ -1,6 +1,6 @@
 import { useCallback, useState } from 'react'
 
-import { useAdobeFonts } from '../../dist'
+import { useAdobeFonts } from '../../../../dist'
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(false)
