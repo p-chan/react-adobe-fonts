@@ -1,6 +1,6 @@
 import { useCallback, useState } from 'react'
 
-import { useAdobeFonts } from '../../../../dist'
+import { AdobeFonts } from 'react-adobe-fonts'
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(false)
@@ -15,14 +15,9 @@ const App = () => {
     setIsActive(true)
   }, [])
 
-  useAdobeFonts({
-    kitId: '',
-    onLoading,
-    onActive,
-  })
-
   return (
     <div>
+      <AdobeFonts kitId="" onLoading={onLoading} onActive={onActive} />
       <div>isLoading: {isLoading ? 'true' : 'false'}</div>
       <div>isActive: {isActive ? 'true' : 'false'}</div>
     </div>
