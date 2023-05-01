@@ -38,8 +38,8 @@
   "devDependencies": {
     "@stardust-configs/prettier-config": "0.1.1",
     "@stardust-configs/tsconfig": "0.4.0",
-    "@types/react": "18.0.31",
-    "@types/react-dom": "18.0.11",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.1",
     "prettier": "2.8.8",
     "react": "18.2.0",
     "react-dom": "18.2.0",
