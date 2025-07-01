@@ -39,8 +39,8 @@
   "devDependencies": {
     "@stardust-configs/prettier-config": "0.3.0",
     "@stardust-configs/tsconfig": "0.4.0",
-    "@types/react": "18.3.20",
-    "@types/react-dom": "18.3.5",
+    "@types/react": "18.3.23",
+    "@types/react-dom": "18.3.7",
     "prettier": "3.5.3",
     "react": "18.3.1",
     "react-dom": "18.3.1",
